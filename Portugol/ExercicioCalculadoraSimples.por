@@ -1,5 +1,5 @@
 // Objetivo: Criar uma calculadora simples.
-// Entrada : Primeiro número, operador(+ - / *), segundo número.
+// Entrada : Primeiro número, operador( + - / * ), segundo número.
 // Saida : Os números, o operador e o resultado da operação.
 // Autor : Rafael Florentino.
 
@@ -41,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 230; 
+ * @POSICAO-CURSOR = 202; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

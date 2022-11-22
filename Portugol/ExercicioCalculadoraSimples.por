@@ -1,6 +1,6 @@
 // Objetivo: Criar uma calculadora simples.
 // Entrada : Primeiro número, operador(+ - / *), segundo número.
-// Saida : O resultado da operação.
+// Saida : Os numeros, o operador e o resultado da operação.
 // Autor : Rafael Florentino.
 
 programa
@@ -33,8 +33,7 @@ programa
 			resultado = 0.0 
 		}
 
-		escreva(n1," ", operador," ", n2," = ", resultado)
-		
+		escreva(n1," ", operador," ", n2," = ", resultado)		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -42,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 175; 
+ * @POSICAO-CURSOR = 146; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

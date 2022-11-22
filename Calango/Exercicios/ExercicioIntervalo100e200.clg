@@ -1,0 +1,20 @@
+algoritmo ExercicioIntervalo100e200;
+//  Aluno : Rafael Florentino.
+//  Objetivo: Diga se um número está no intervalo entre 100 e 200.
+//  Entrada : Um número.
+//  Saída   : Informar se o número esta no intervalo entre 100 e 200.
+
+principal
+	// Declarações
+	real numero;
+
+	// Instruções
+	escreval("Digite um número: ");
+	leia(numero);
+
+	se (numero >= 100 e numero <= 200) entao
+		escreval("Número esta dentro do intervalo!");
+	senao
+		escreval("Número não esta dentro do intervalo!");
+	fimSe
+fimPrincipal

@@ -1,0 +1,24 @@
+algoritmo ExercicioMediaAprovado;
+//  Aluno: Rafael Florentino
+//  Objetivo: Calcular a média de 2 notas de um aluno, se >= 7 aprovado se < 7 reprovado.
+//  Entrada : Duas notas.
+//  Saída   : Média e mensagem Aprovado ou Reprovado.
+
+principal
+	// Declarações
+	real nota1, nota2, media;
+
+	// Instruções
+	escreval("Digite a primeira Nota: ");
+	leia(nota1);
+	escreval("Digite a segunda Nota: ");
+	leia(nota2);
+
+	media = (nota1 + nota2) / 2;
+
+	se (media >= 7)entao
+		escreval("Aprovado!!! A sua média é: ",media);
+	senao
+		escreval("Reprovado. A sua média é: ",media);
+	fimSe	
+fimPrincipal

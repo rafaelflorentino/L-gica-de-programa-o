@@ -1,0 +1,20 @@
+algoritmo ExercicioParImpar;
+//  Aluno: Rafael Florentino.
+//  Objetivo:  Mostre se um número par ou ímpar.
+//  Entrada : Um número inteiro.
+//  Saída   : Informar se um número par ou ímpar.
+
+principal
+	// Declarações
+	inteiro numero;
+
+	// Instruções
+	escreval("Informe um número inteiro: ");
+	leia(numero);
+	
+	se ((numero mod 2) == 0 ) entao
+	   escreval("O número e o par! ");
+	senao
+	   escreval("O número e ímpar! ");
+	fimSe
+fimPrincipal

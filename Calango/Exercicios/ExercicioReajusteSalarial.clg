@@ -1,0 +1,51 @@
+algoritmo ExercicioReajusteSalarial;
+//  Aluno: Rafael Florentino
+//  Objetivo:  Calcular o novo salário dos funcionários baseado no cargo.
+//  Entrada : Nome do funcionário, enquadramanto funcional, salário atual. 
+//  Saída   : Nome do funcionário e salário reajustado.
+
+principal
+	// Declarações
+	texto nome;
+	inteiro cargo;
+	real salario,reajuste1,reajuste2,reajuste3,reajuste4,reajuste5;
+
+	// Instruções
+	escreval("Digite o nome do funcionario");
+	leia(nome);
+	escreval("Digite o número do seu enquadramento funcional: 1(Diretoria), 2(Gerência), 3(Analista), 4(Tecnico), 5(Administração)");
+	leia(cargo);
+	escreval("Digite seu salário atual");
+	leia(salario);
+
+	escolha (cargo)
+		caso 1
+		  escreval(nome);
+		  reajuste1 = salario + (5/100*salario);
+		  escreval("Seu salário liquido é: ",reajuste1);
+		  interrompa;
+		caso 2
+		  escreval(nome);
+		  reajuste2 = salario + (7/100*salario);
+		  escreval("Seu salário liquido é: ",reajuste2);
+		  interrompa;
+		caso 3
+		escreval(nome);
+		  escreval(nome);
+		  reajuste3 = salario + (8/100*salario);
+		  escreval("Seu salário liquido é: ",reajuste3);  
+		  interrompa;
+		caso 4
+		  escreval(nome);
+		  reajuste4 = salario + (9/100*salario);
+		  escreval("Seu salário liquido é: ",reajuste4);
+		  interrompa;
+		caso 5
+		  escreval(nome);
+		  reajuste5 = salario + (4/100*salario);
+		  escreval("Seu salário liquido é: ",reajuste5);	  
+		  interrompa;
+		outroCaso
+		   escreval("Infelizmente seu salário não terá reajuste.");		  
+	fimEscolha
+fimPrincipal

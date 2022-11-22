@@ -1,0 +1,19 @@
+algoritmo ExercicioDivisaoInteiros;
+//  Autor: Rafel Florentino.
+//  Objetivo:  Dividir dois números inteiros.
+//  Entrada : Dois números inteiros.
+//  Saída   : Divisão dos 2 números.
+
+principal
+	// Declarações
+	inteiro num1, num2, divisao;
+
+	// Instruções
+	escreval("Digite o primeiro número: ");
+	leia(num1);
+	escreval("Digite o segundo número: ");
+	leia(num2);
+	divisao = num1 / num2;  
+	escreval (" O resultado da divisão é: ", divisao);
+
+fimPrincipal

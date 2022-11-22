@@ -1,0 +1,17 @@
+algoritmo ExercicioConverteIdade;
+//  Aluno: Rafael Florentino.
+//  Objetivo: Converter a anos em meses.
+//  Entrada : Anos.
+//  Saída   : Meses.
+
+principal
+	// Declarações
+	inteiro anos, meses, dias;
+		
+	// Instruções
+	escreval("Digite quantos anos deseja converter: ");
+	leia(anos);
+	meses = anos * 12;
+	escreval("Anos equivalentes em mêses: ",meses);
+	
+fimPrincipal

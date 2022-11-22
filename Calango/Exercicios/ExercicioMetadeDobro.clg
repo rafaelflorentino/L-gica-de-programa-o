@@ -1,0 +1,18 @@
+algoritmo ExercicioMetadeDobro;
+//	Autor: Rafael Florentino
+//  Objetivo:  Informar a metade e o dobro de um número.
+//  Entrada : Um número.
+//  Saída   : A Mmtade e o dobro do número.
+
+principal
+	// Declarações
+	real metade , dobro, num;
+
+	// Instruções
+	escreval("Digite um número: ");
+	leia(num);
+	metade = num/2;
+	dobro = num * 2;
+	escreval(" A metade do número é: ",metade);
+	escreval(" O dobro do número é: ",dobro);
+fimPrincipal

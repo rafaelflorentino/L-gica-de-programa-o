@@ -1,0 +1,22 @@
+algoritmo ExercicioReajusteSalarial2;
+//  Aluno: Rafael Florentino.
+//  Objetivo: Calcular o salário reajustado de um funcionário. se salario > 1000 reajuste %15 se < 1000 %30.
+//  Entrada : Salário.
+//  Saída   : Salário reajustado.
+
+principal
+	// Declarações
+	real salario, salarioReajustado;
+	
+	// Instruções
+	escreval("Informe o seu Salário: ");
+	leia(salario);
+	
+	se (salario >= 1000) entao
+	     salarioReajustado = salario/100*15+salario;
+	     escreval ("Seu salário reajustado é de: R$",salarioReajustado);
+	senao
+	    salarioReajustado = salario/100*20+salario;
+	    escreval ("Seu salário reajustado é de: R$",salarioReajustado);
+	fimSe
+fimPrincipal

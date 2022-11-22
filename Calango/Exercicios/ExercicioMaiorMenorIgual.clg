@@ -1,0 +1,25 @@
+algoritmo ExercicioMaiorMenorIgual;
+//  Aluno: Rafael Florentino.
+//  Objetivo: Ler dois números e informar se o primeiro e maior, menor ou igual ao segundo.
+//  Entrada : Dois némeros quaisquer.
+//  Saída   : Informar se o primeiro e maior, menor ou igual ao segundo.
+
+principal
+	// Declarações
+	real numero1, numero2;
+
+	// Instruções
+	escreval("Informe o primeiro número: ");
+	leia(numero1);
+	escreval("Informe o segundo número: ");
+	leia(numero2);
+	se (numero1 > numero2 )entao
+	   escreval("O primeiro número e maior que o segundo número.");
+	fimSe
+	se(numero1 < numero2)entao
+	   escreval("O segundo número e maior que o primeiro número.");
+	fimSe
+	se(numero1 == numero2)entao
+	   escreval("O primeiro número e igual ao segundo número." );
+	fimSe
+fimPrincipal

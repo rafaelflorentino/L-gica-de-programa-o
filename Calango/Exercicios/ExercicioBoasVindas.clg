@@ -1,0 +1,11 @@
+algoritmo boasVindas;
+//  Aluno: Rafael Florentino
+//  Objetivo: Efetuar saudação de boas vindas ao usuário do algoritmo
+//  Entrada : Sem entrada
+//  Saída   : Boas vindas com o nome do usuário
+
+principal
+	// Instruções
+	escreva("Rafael Florentino, seja bem vindo a Logica de Programação!!!");
+
+fimPrincipal

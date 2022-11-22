@@ -1,0 +1,21 @@
+algoritmo ExercicioMediaNotas;
+//  Aluno: Rafael Florentino.
+//  Objetivo:  Calcular a média das 3 notas de um aluno.
+//  Entrada : Três notas.
+//  Saída   : Média das notas.
+
+principal
+	// Declarações
+	real nota1, nota2, nota3, media;
+
+	// Instruções
+	escreval("Digite a primeira Nota: ");
+	leia(nota1);
+	escreval("Digite a segunda Nota: ");
+	leia(nota2);
+	escreval("Digite a terceira Nota: ");
+	leia(nota3);
+
+	media = (nota1 + nota2 + nota3) / 3;
+	escreval("A sua média é: ",media);	
+fimPrincipal

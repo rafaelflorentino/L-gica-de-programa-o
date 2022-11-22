@@ -1,0 +1,17 @@
+algoritmo ExercicioCelciusFahrenheit;
+//	Aluno: Rafael Florentino.
+//  Objetivo:  : Leia a temperatura em graus Celsius e mostre convertida em graus Fahrenheit.
+//  Entrada : Temperatura em graus Celsius.
+//  Saída   : Temperatura em graus Fahrenheit.
+
+principal
+	// Declarações
+	real celcius, fahrenheit;
+
+	// Instruções
+	escreval("Digite a temperatura em Celsius:");
+	leia(celcius);
+	fahrenheit = (celcius * 1.8) + 32;
+	escreval("A temperatura em Fahrenheit é: ",fahrenheit);
+	
+fimPrincipal

@@ -1,0 +1,17 @@
+algoritmo ExercicioExponenciacao;
+//  Aluno: Rafael Florentino.
+//  Objetivo: Informe o quadrado de um número qualquer.
+//  Entrada : Um número.
+//  Saída: Quadrado do número.
+
+principal
+	// Declarações
+	real exponenciacao, numero;
+
+	// Instruções
+	escreval("Digite um número: ");
+	leia(numero);
+	exponenciacao = numero * numero;
+	escreval("O quadrado do número é: ",exponenciacao);
+
+fimPrincipal

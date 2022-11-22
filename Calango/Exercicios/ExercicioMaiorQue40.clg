@@ -1,0 +1,24 @@
+algoritmo ExercicioMaiorQue40;
+//  Aluno : Rafael Florentino
+//  Objetivo: leia um número e informe se o dobro desse número é maior que 40.
+//  Entrada : Um numero qualquer.
+//  Saída   : Mensagem: o dobro do número é maior que quarenta ou menor que quarenta.
+
+principal
+	// Declarações
+	inteiro numero, dobro;
+
+	// Instruções
+	escreval("Informe o número: ");
+	leia(numero);
+	dobro = numero * 2;
+	se (dobro > 40 )entao
+	   escreval("O dobro do número: ",numero," é maior que quarenta, Dobro = ",dobro);
+	senao
+		se (dobro == 40)entao
+		   escreval("O dobro do número: ",numero," é igual a quarenta, Dobro = ",dobro);		
+		senao
+	   	  escreval("O dobro do número: ",numero," é menor que quarenta, Dobro = ",dobro);
+		fimSe
+	fimSe	
+fimPrincipal

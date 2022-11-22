@@ -1,0 +1,23 @@
+algoritmo ExercicioEmprestimoAprovado;
+//  Aluno: Rafael Florentino
+//  Objetivo: Analisar se um empréstimo pode ou não ser concedido sendo que o empréstimo não pode ultrapassar 30% do salário bruto do funcionário. 
+//  Entrada : Salário Bruto do Funcionário, valor do empréstimo.
+//  Saída   : Emprestimo Aprovado ou não Aprovado.
+
+principal
+	// Declarações
+	real salarioBruto, valorEmprestimo;
+
+	// Instruções
+	escreval("Informe o salário bruto do Funcionário: ");
+	leia(salarioBruto);
+	escreval("Informe o valor do empréstimo: ");
+	leia(valorEmprestimo);
+	
+	se (valorEmprestimo > salarioBruto/100*30) entao
+	   escreval("O empréstimo  não pode ser Aprovado ");
+	senao
+	   escreval("O empréstimo pode ser Aprovado!!! ");
+	fimSe
+
+fimPrincipal

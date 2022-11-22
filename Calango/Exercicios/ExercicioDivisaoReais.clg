@@ -1,0 +1,20 @@
+algoritmo ExercicioDivisaoReais;
+//  Aluno: Rafael Florentino.
+//  Objetivo:  Dividir dois números.
+//  Entrada : 2 números reais.
+//  Saída   : Divisão dos 2 números.
+
+
+principal
+	// Declarações
+	real divisao, num1,num2;
+
+	// Instruções
+	escreval("Digite o primeiro número: ");
+	leia(num1);
+	escreval("Digite o segundo número: ");
+	leia(num2);
+	divisao = num1 / num2;  //Calculo da divisao
+	escreval(" O resultado da divisão é: ", divisao);
+
+fimPrincipal

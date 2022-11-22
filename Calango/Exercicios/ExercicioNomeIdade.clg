@@ -1,0 +1,20 @@
+algoritmo ExercicioNomeIdade;
+//	Aluno: Rafael Florentino.
+//  Objetivo: Dizer nome da pessoa e sua idade daqui a 30 anos.
+//  Entrada : Nome e idade.
+//  Saída   : Nome da pessoa e a idade daqui a 30 anos.
+
+principal
+	// Declarações
+	texto nome;
+	inteiro idade, soma;
+	
+	// Instruções
+	escreval("Digite um nome: ");
+	leia(nome);
+	escreval("Digite Sua idade: ");
+	leia(idade);
+	soma = idade + 30;
+	escreval("Seu nome é: ",nome);
+	escreval("Sua idade daqui a 30 anos é : ",soma);
+fimPrincipal

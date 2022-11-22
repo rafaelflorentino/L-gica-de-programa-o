@@ -1,0 +1,36 @@
+algoritmo ExercicioMaiorDeTres;
+//  Aluno: Rafael Florentino.
+//  Objetivo:  Ler 3 números e informar qual dos três é o maior.
+//  Entrada :  Três números quaisquer.
+//  Saída   : Maior número.
+
+principal
+	// Declarações
+	real num1, num2, num3, maior;
+
+	// Instruções
+	escreval("Informe o primeiro número: ");
+	leia(num1);
+	escreval("Informe o segundo número: ");
+	leia(num2);
+	escreval("Informe o terceiro número: ");
+	leia(num3);
+
+	se (num1 == num2 e num1 == num3 )entao
+		escreval("O três números são iguais. "); 
+	senao 	
+		se (num1 > num2 )entao
+			se(num1 > num3)entao
+		  		escreval("O primeiro número é o maior: ",num1);  	
+		  	senao
+		  		escreval("O terceiro número é o maior: ",num3);
+		  	fimSe	
+		senao
+			se(num2 > num3)entao
+				escreval("O segundo número é o maior: ",num2);
+			senao
+				escreval("O terceiro número é o maior: ", num3);
+			fimSe
+		fimSe
+	fimSe
+fimPrincipal

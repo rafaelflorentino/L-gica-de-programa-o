@@ -1,0 +1,18 @@
+algoritmo ExercicioAreaCircunferencia;
+//	Aluno : Rafael florentino.
+//  Objetivo:  Calcular a área da circunferência.
+//  Entrada :  Raio da circunferência.
+//  Saída   : Área circunferência.
+
+principal
+	// Declarações
+	real raio, area;
+
+	// Instruções
+	escreval("Digite o raio da circunferência: ");
+	leia(raio);
+	area = (raio * raio) * 3.14159265359;
+	
+	escreval("A área da circunferência é: ",area);
+
+fimPrincipal

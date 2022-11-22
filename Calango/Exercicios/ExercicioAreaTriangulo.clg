@@ -1,0 +1,19 @@
+algoritmo ExercicioAreaTriangulo;
+//  Aluno: Rafael Florentino.
+//  Objetivo: Calcular a área de um triângulo.
+//  Entrada : Base e altura.
+//  Saída   : Área do triângulo.
+
+principal
+	// Declarações
+	real base, altura, area;
+
+	// Instruções
+	escreval("Digite a base do triângulo: ");
+	leia(base);
+	escreval("Digite a altura do triângulo: ");
+	leia(altura);
+	area = (base * altura) / 2;
+	escreval("A área do triãngulo é: ",area);
+
+fimPrincipal

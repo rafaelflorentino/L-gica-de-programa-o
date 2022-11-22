@@ -1,0 +1,24 @@
+algoritmo NumeroPositivoNuloNegativo;
+//  Aluno: Rafael Florentino.
+//  Objetivo: Mostre se um número é positivo, negativo ou nulo (zero).
+//  Entrada : Um número Qualquer.
+//  Saída : Informar se um número é positivo, negativo ou nulo (zero).
+
+principal
+	// Declarações
+	real numero;
+
+	// Instruções
+	escreval("Digite um número: ");
+	leia(numero);
+
+	se(numero > 0)entao
+		escreval("O número é positivo: ",numero);
+	senao
+		se(numero < 0)entao
+			escreval("O número é negativo: ",numero);
+		senao
+			escreval("O número é Nulo(zero): ",numero);
+		fimSe
+	fimSe		
+fimPrincipal

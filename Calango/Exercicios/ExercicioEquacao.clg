@@ -1,0 +1,59 @@
+algoritmo ExercicioEquacao;
+// Síntese
+//	Aluno: Rafael Florentino.
+//  Objetivo: Calcular uma equação do segundo grau.
+//  Entrada : Coeficientes a, b e c.
+//  Saída   : Resultado da equação.
+
+principal
+	// Declarações
+	real a,b,c,delta,x1,x2;
+	//real a,b,c,delta,x1,x2,raiz,r;
+	
+	// Instruções
+	escreval("informe o coeficiente a ");
+	leia(a);
+	escreval("informe o coeficiente b ");
+	leia(b);
+	escreval("informe o coeficiente c ");
+	leia(c);
+	delta = (b*b) -4*a*c;
+
+	//Jeito 01    
+    se (a == 0) entao
+    	escreval("O valor de a, deve ser diferente de 0");
+    senao
+	    se (delta < 0) entao		     
+		    escreval("Sem raízes reais");
+	    senao 
+		     x1 = (-b + raizQuadrada(delta)) / (2 * a);
+		     x2 = (-b - raizQuadrada(delta)) / (2 * a);
+	  
+		    escreval("O valor de delta é: ", delta);
+			escreval("O valor de x1 é: ", x1);
+			escreval("O valor de x2 é: ", x2);
+		fimSe
+	fimSe	
+	
+	// Jeito 02
+	/*	se (delta > 0) entao
+			x1 = (-b -raizQuadrada(delta))/(2*a);
+			x2 = (-b +raizQuadrada(delta))/(2*a);
+				escreval("O valor de delta é: ", delta);
+				escreval("O valor de x1 é: ", x1);
+				escreval("O valor de x2 é: ", x2);
+		senao
+			se (delta == 0) entao
+				raiz = (-b + raizQuadrada(delta))/(2*a);
+				escreval("Raiz Dupla: ", raiz);
+       		senao
+	         r = (-b)/(2*a);
+	         x1  = raizQuadrada(-delta)/(2*a);
+	         x2  = - raizQuadrada(-delta)/(2*a);
+	         escreval("O valor de delta é: ", delta);
+			 escreval("O valor de x1 é: ", x1);
+			 escreval("O valor de x2 é: ", x2);
+	         fimSe
+	    fimSe */
+  
+fimPrincipal
